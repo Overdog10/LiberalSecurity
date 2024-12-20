@@ -1,0 +1,172 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #0e0d0d;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.logo .dark {
+    color: #ffffff;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+}
+
+.nav-buttons button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+}
+
+.nav-buttons button:hover {
+    background-color: #ff007f;
+    border-color: #ff007f;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #1a1a1a;
+    color: #f8f8f8;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Clients Section */
+.clients {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    margin-top: 1rem;
+}
+
+.clients h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.clients .marquee {
+    display: flex;
+    gap: 2rem;
+    overflow: hidden; /* Hide content outside bounds */
+    white-space: nowrap; /* Ensure logos are in a single line */
+    animation: scroll 10s linear infinite;
+}
+
+.clients .marquee span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0; /* Prevent shrinking when scrolling */
+}
+
+.clients img {
+    height: 40px;
+    width: auto;
+}
+
+/* Keyframes for the scrolling marquee effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Details Section */
+.details {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000000;
+    margin-top: 1rem;
+}
+
+.details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.details p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+/* Button Specific */
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
