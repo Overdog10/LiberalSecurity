@@ -73,7 +73,7 @@ We are now familiar with prompt injection attacks, it basically occurs when the 
 
 The below picture is the landing page of DVLA hosted on localhost.
 
-![DVLA_1](DVLA_1.PNG)
+![DVLA_1](DVLA_1.png)
 
 Let's now interact with the agent;
 
@@ -81,7 +81,7 @@ Let's now interact with the agent;
 
    `What are my recent transactions? 
 
-![DVLA_2](DVLA_2.PNG)
+![DVLA_2](DVLA_2.png)
 This prompt displays the most recent transactions which demonstrates a basic behaviour of the LLM agent.
 
 Let's proceed with exploiting this LLM agent using **Prompt Injection & Jailbreaking** techniques
